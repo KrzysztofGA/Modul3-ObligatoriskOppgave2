@@ -6,5 +6,6 @@ namespace Oblig2
     {
         public const ConsoleColor Alert = ConsoleColor.Red;
         public const ConsoleColor Text = ConsoleColor.Green;
+        public const ConsoleColor Board = ConsoleColor.White;
     }
 }

@@ -15,8 +15,9 @@ namespace Oblig2
             board.Set("f7", rook);
             while (true)
             {
-                Console.ForegroundColor = Colors.Text;
+                Console.ForegroundColor = Colors.Board;
                 board.Show();
+                Console.ForegroundColor = Colors.Text;
                 Console.WriteLine("Blankt svar avslutter programmet. Ruter skrives som en bokstav og et tall, for eksempel \"e4\".");
                 var positionFrom = Ask("Hvilken rute vil du flytte fra?");
                 var positionTo = Ask("Hvilken rute vil du flytte til?");
